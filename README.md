@@ -43,11 +43,16 @@ npm run lint       # ESLint (sin errores)
 npx tsc --noEmit   # TypeScript estricto (sin errores)
 ```
 
-Capturas de pantalla:
+Ejecutar test de covertura:
 
 ```
-mkdir -p docs/screenshots
-npm start
+npm test -- --coverage
+```
+
+Ejecutar test unitarios:
+
+```
+npm run test
 ```
 
 ## Arquitectura
